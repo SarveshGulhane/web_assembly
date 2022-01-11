@@ -1,2 +1,2 @@
-# blockchain-rust
- Blockchain implementation in rust.
+# WASM-rust
+ Web Assembly using rust.
