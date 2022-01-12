@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Web Assembly example</title>
+</head>
+
+<body>
+    <script type="module">
+        import init, { greet } from "./pkg/web_assembly.js";
+        init()
+            .then(() => {
+                greet("Sarvesh")
+            });
+    </script>
+</body>
+
+</html>
